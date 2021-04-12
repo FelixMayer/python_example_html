@@ -1,0 +1,174 @@
+.container {
+    margin: auto;
+    background-color: #265277;
+    width: 1200px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    max-height: 200px;
+    margin-bottom: 10px;
+}
+img {
+    margin-top: 10px;
+    margin-left: 25px;
+}
+.search {
+    background-color: #444444;
+    width: 260px;
+    height: 60px;
+    margin-right: 60px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    box-shadow: 3px 3px 5px #1f2428;
+}
+.button {
+    background-color: rgb(2, 2, 184);
+    color: white;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    border-radius: 8px;
+    border-style: solid rgb(0, 0, 0) 2px;
+    width: 45px;
+}
+.bar {
+    padding: 0px;
+    margin-left: 20px;
+    height: 31px;
+    width: 160px;
+}
+.button{
+    text-align: center;
+}
+.right_header {
+    flex-direction: column;
+    color: whitesmoke;
+}
+.right_header span a {
+    color: #fed32d;
+}
+.size {
+    margin-left: 50px;
+    margin-bottom: 0px;
+}
+
+
+.top_nav{
+    background-color: #306998;
+    height: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 90px;
+    margin-right: 60px;
+    padding-top: 0px;
+    margin-top: 0px;
+    margin-bottom: 4px;
+    padding-bottom: 20px;
+    border-radius: 8px;
+    color: white;
+    font-size: x-large;
+    box-shadow: 3px 3px 5px #1f2428;
+    text-align: center;
+}
+.nav_button {
+    padding: 0px;
+    margin-top: 10px;
+}
+
+
+.nav{
+    background-color: #265277;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid black 2px;
+}
+.side_nav {
+    display: flex;
+    width: 180px;
+    margin-left: 120px;
+    margin-top: 8px;
+    text-align: center;
+    line-height: 1.6;
+    font-size: 18px;
+}
+.list {
+    color: white;
+}
+.py_intro {
+    color: white;
+    display: flex;
+    text-align: center;
+    width: 700px;
+    margin-right: 120px;
+}
+.py_intro span {
+    color: #fed32d;
+    font-size: x-large;
+    line-height: 1.4;
+}
+
+
+.resources {
+    height: 280px;
+    background-color: white;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+.started {
+    height: 280px;
+    width: 400px;
+    margin-left: 150px;
+    text-align: justify;
+}
+.line {
+    background-color: #407bad;
+    height: 4px;
+    margin-top: 12px;
+}
+.applications {
+    height: 280px;
+    width: 400px;
+    margin-right: 150px;
+    text-align: justify;
+}
+ul li p{
+    text-align: center;
+    margin: 0px;
+}
+.heading {
+    text-align: center;
+    margin-top: 3px;
+}
+.lightblue {
+    color: #7eaed8;
+}
+
+
+
+.bottom {
+    background: linear-gradient(#265277, #3170a6);;
+    height: 80px;
+    color: #86b8e4;
+    align-items: center;
+    font-size: 20px;
+    text-align: center;
+}
+.topOfBottom {
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    margin-top: 20px;
+}
+.topOfBottom p {
+    margin-right: 40px;
+}
+.bottom .copyright {
+    font-size: 12px;
+}
